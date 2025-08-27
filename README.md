@@ -7,23 +7,23 @@ The Wireshark Packet Analysis project focused on learning how to capture and ana
 
 ### Skills Learned
 
-Proficiency in using Wireshark to capture and analyze network traffic.
+- Proficiency in using Wireshark to capture and analyze network traffic.
 
-Ability to apply filters to isolate relevant packets for investigation.
+- Ability to apply filters to isolate relevant packets for investigation.
 
-Understanding of network protocols including ICMP, TCP, UDP, HTTP, and DNS.
+- Understanding of network protocols including ICMP, TCP, UDP, HTTP, and DNS.
 
-Experience in examining packet structure from Frame, Ethernet, IP, and Transport layers.
+- Experience in examining packet structure from Frame, Ethernet, IP, and Transport layers.
 
-Strengthened analytical skills for identifying traffic patterns and interpreting payload data.
+- Strengthened analytical skills for identifying traffic patterns and interpreting payload data.
 
 ### Tools Used
 
-Wireshark – for packet capture and traffic analysis.
+- Wireshark – for packet capture and traffic analysis.
 
-Sample PCAP file – containing real-world browsing and DNS traffic.
+- Sample PCAP file – containing real-world browsing and DNS traffic.
 
-Filtering techniques – for isolating IP, MAC, DNS, and TCP traffic.
+- Filtering techniques – for isolating IP, MAC, DNS, and TCP traffic.
 
 ## Steps
 *Ref 1: Exploring the Packet Capture File*
@@ -55,10 +55,10 @@ Filtered for HTTP traffic using tcp.port == 80. Examined packets to identify web
 
 This project provided practical experience in analyzing network traffic using Wireshark. By applying filters and drilling into protocol layers, I was able to:
 
-Open and interpret packet capture files.
+- Open and interpret packet capture files.
 
-Identify source/destination IPs, ports, and protocols.
+- Identify source/destination IPs, ports, and protocols.
 
-Analyze DNS queries, HTTP traffic, and TCP payload data.
+- Analyze DNS queries, HTTP traffic, and TCP payload data.
 
-Strengthen investigative skills necessary for cybersecurity monitoring and incident response.
+- Strengthen investigative skills necessary for cybersecurity monitoring and incident response.
