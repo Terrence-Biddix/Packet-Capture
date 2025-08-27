@@ -29,17 +29,31 @@ The Wireshark Packet Analysis project focused on learning how to capture and ana
 *Ref 1: Exploring the Packet Capture File*
 
 Opened the provided PCAP file in Wireshark to review captured traffic. Observed multiple types of traffic including DNS queries, TCP requests, and ICMP ping requests.
-(Insert screenshot of Wireshark overview with different colored packets)
+
+<img width="1865" height="685" alt="Packet capture 1" src="https://github.com/user-attachments/assets/02354724-09f4-4ac5-bbcb-f2fffb46bad9" />
+
+
 
 *Ref 2: Applying Basic Filters*
 
 Used the filter ip.addr == 142.250.1.139 to view traffic between a client and a specific destination IP. This reduced the dataset to relevant communications only.
-(Insert screenshot showing filtered packets in Wireshark)
+<img width="933" height="689" alt="Packet Capture 2" src="https://github.com/user-attachments/assets/c1959dbf-5a13-4c6d-ad91-e0646ab3fed8" />
+
+
+
 
 *Ref 3: Inspecting Protocol Layers*
 
 Drilled down into a TCP packet to examine Frame, Ethernet II, IPv4, and TCP subtrees. Verified source and destination IP addresses, port numbers, and TCP flags.
 (Insert screenshot of packet detail pane with expanded subtrees)
+<img width="1335" height="830" alt="Packet Capture 3" src="https://github.com/user-attachments/assets/2e2abd00-d287-4ec0-99a1-0442076c0147" />
+<img width="1387" height="461" alt="Packet Capture 3 part 2" src="https://github.com/user-attachments/assets/446885fa-317d-4c76-a48c-867e6780df94" />
+<img width="1190" height="413" alt="Packet Capture 3 part 3" src="https://github.com/user-attachments/assets/ed96a1d3-8882-4848-b693-2274df3b6f99" />
+<img width="915" height="411" alt="Packet Capture 3 part 4" src="https://github.com/user-attachments/assets/40d7abb2-1246-404f-96fb-60db9cae2d57" />
+<img width="950" height="433" alt="Packet Capture 3 part 5" src="https://github.com/user-attachments/assets/1ba626de-3872-47fa-b79e-a848c6bcdb0b" />
+
+
+
 
 *Ref 4: DNS Traffic Analysis*
 
